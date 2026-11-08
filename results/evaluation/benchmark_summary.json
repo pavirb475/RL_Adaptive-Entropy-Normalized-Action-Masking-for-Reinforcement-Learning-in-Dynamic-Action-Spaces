@@ -1,0 +1,29 @@
+{
+  "ppo": {
+    "mean_reward": -486.93999999999994,
+    "std_reward": 15.750822200761466,
+    "mean_completed": 8.1,
+    "std_completed": 0.30000000000000004,
+    "mean_invalids": 91.45,
+    "std_invalids": 0.7399324293474371,
+    "mean_valid_actions": 2.5185
+  },
+  "masked_ppo": {
+    "mean_reward": -40.800000000000075,
+    "std_reward": 15.282375469801815,
+    "mean_completed": 8.6,
+    "std_completed": 0.4898979485566356,
+    "mean_invalids": 0.0,
+    "std_invalids": 0.0,
+    "mean_valid_actions": 1.358
+  },
+  "aen_ppo": {
+    "mean_reward": -40.77500000000006,
+    "std_reward": 13.915957566764865,
+    "mean_completed": 8.45,
+    "std_completed": 0.5894913061275798,
+    "mean_invalids": 0.0,
+    "std_invalids": 0.0,
+    "mean_valid_actions": 1.3665000000000003
+  }
+}

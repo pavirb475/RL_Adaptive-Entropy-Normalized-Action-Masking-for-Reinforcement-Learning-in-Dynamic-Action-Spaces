@@ -1,0 +1,25 @@
+STARTING HELD-OUT COMPARATIVE BENCHMARK EVALUATION
+Episodes: 20 | Seed: 999 | Map: maps/starter_map.json
+======================================================================
+
+--> Evaluating PPO...
+[AEN-PPO Launcher] Loaded PPO weights from: /Users/pavithra/Documents/RL PROJECT/AEN-PPO/results/ppo_controlled/ppo_baseline.pt
+    Mean Reward:          -486.94 +/- 15.75
+    Completed Deliveries: 8.10 +/- 0.30
+    Invalid Actions:      91.45
+    Mean |A_valid|:       2.52
+
+--> Evaluating MASKED_PPO...
+[AEN-PPO Launcher] Loaded MASKED_PPO weights from: /Users/pavithra/Documents/RL PROJECT/AEN-PPO/results/masked_ppo_controlled/masked_ppo.pt
+    Mean Reward:          -40.80 +/- 15.28
+    Completed Deliveries: 8.60 +/- 0.49
+    Invalid Actions:      0.00
+    Mean |A_valid|:       1.36
+
+--> Evaluating AEN_PPO...
+[AEN-PPO Launcher] Loaded AEN_PPO weights from: /Users/pavithra/Documents/RL PROJECT/AEN-PPO/results/aen_ppo_controlled/aen_ppo.pt
+    Mean Reward:          -40.78 +/- 13.92
+    Completed Deliveries: 8.45 +/- 0.59
+    Invalid Actions:      0.00
+    Mean |A_valid|:       1.37
+[Evaluation] Saved comparative figure to: /Users/pavithra/Documents/RL PROJECT/AEN-PPO/results/evaluation/benchmark_comparison.png

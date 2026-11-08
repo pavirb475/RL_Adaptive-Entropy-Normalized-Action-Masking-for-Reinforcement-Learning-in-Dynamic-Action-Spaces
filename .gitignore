@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Exclude LaTeX Paper and Reference Papers as requested by user
+IEEE_Access_LaTeX_template/
+IEEE_Access_LaTeX_template.zip
+Papers/
+
+# OS and Editor Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temp files
+*.log
+file.txt
